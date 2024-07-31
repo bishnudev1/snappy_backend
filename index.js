@@ -34,7 +34,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https://snappy-client-vghl.onrender.com",
+    origin: "https://snappyz.netlify.app",
     credentials: true,
   },
 });
